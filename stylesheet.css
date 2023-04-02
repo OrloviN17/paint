@@ -1,0 +1,30 @@
+body{
+background-color: rgb(194, 211, 178);
+}
+
+.maindiv{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 1000px;
+width: 1000px;
+
+}
+
+.pixelDiv{
+flex: 1;
+display: flex;
+
+background-color: yellow;
+border: solid 1px rgb(194, 211, 178);
+}
+.horizontalDiv{
+    flex: 1;
+    display: flex;
+}
+
+.colored{
+background-color: black;
+border-color:  black;
+
+}
